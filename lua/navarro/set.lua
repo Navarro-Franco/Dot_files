@@ -1,4 +1,4 @@
-vim.opt.guicursor = ""
+#vim.opt.guicursor = ""
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -32,3 +32,7 @@ vim.opt.colorcolumn = "80"
 -- https://github.com/savq/melange-nvim
 vim.opt.termguicolors = true
 vim.cmd.colorscheme 'melange'
+
+-- Speelcheck
+vim.opt.spell = true
+vim.opt.spelllang = { "en_us", "es" }

@@ -1,7 +1,7 @@
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
   -- existe "pioasm" pero no esta tan bien documentada
-  ensure_installed = { "vimdoc", "c", "lua", "rust", "arduino", "cmake", "python", "latex", "matlab" },
+  ensure_installed = { "vimdoc", "c", "lua", "rust", "arduino", "cmake", "python", "latex", "matlab"},
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
