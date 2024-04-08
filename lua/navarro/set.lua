@@ -10,7 +10,7 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true 
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -28,11 +28,9 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
--- revisar:
--- https://github.com/savq/melange-nvim
-vim.opt.termguicolors = true
-vim.cmd.colorscheme 'melange'
+vim.cmd.syntax("off")
+vim.g.loaded_matchparen = false
+vim.cmd.colorscheme 'default'
 
 -- Speelcheck
-vim.opt.spell = true
 vim.opt.spelllang = { "en_us", "es" }
